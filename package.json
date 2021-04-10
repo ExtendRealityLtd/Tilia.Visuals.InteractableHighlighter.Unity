@@ -1,20 +1,24 @@
 {
-    "name": "io.extendreality.tilia.{scope}.{feature}.{platform?}",
-    "displayName": "Tilia {scope}.{feature}.{platform?}",
-    "description": "{Description of feature.}",
+    "name": "io.extendreality.tilia.visuals.interactablehighlighter.unity",
+    "displayName": "Tilia Visuals InteractableHighlighter Unity",
+    "description": "Provides the ability to control a highlight state for an interactable object for the Unity software.",
     "version": "1.0.0",
     "unity": "2018.3",
     "unityRelease": "10f1",
     "keywords": [
-        "pattern"
+        "visual",
+        "interactions",
+        "interaction",
+        "highlight",
+        "highlighting"
     ],
-    "homepage": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/",
+    "homepage": "https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/",
     "bugs": {
-        "url": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/issues"
+        "url": "https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/issues"
     },
     "repository": {
         "type": "git",
-        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}.git"
+        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity.git"
     },
     "license": "MIT",
     "author": {
@@ -23,7 +27,8 @@
         "url": "https://github.com/ExtendRealityLtd"
     },
     "dependencies": {
-        "io.extendreality.zinnia.unity": "X.Y.Z"
+        "io.extendreality.zinnia.unity": "1.34.1",
+        "io.extendreality.tilia.interactions.interactables.unity": "1.17.0"
     },
     "files": [
         "*.md",
@@ -31,6 +36,8 @@
         "*.asmdef",
         "*.xml",
         "Documentation",
-        "Runtime"
+        "Runtime",
+        "Editor",
+        "docfx.json"
     ]
 }
