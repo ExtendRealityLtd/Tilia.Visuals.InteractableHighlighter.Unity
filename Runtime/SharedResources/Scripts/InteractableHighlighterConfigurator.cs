@@ -181,6 +181,11 @@
         /// <param name="interactable">The source of the interaction events.</param>
         protected virtual void RegisterInteractableEvents(InteractableFacade interactable)
         {
+            if (interactable == null)
+            {
+                return;
+            }
+
             interactable.FirstTouched.AddListener(HandleFirstTouched);
             interactable.LastUntouched.AddListener(HandleLastUntouched);
             interactable.FirstGrabbed.AddListener(HandleFirstGrabbed);
@@ -193,6 +198,11 @@
         /// <param name="interactable">The source of the interaction events.</param>
         protected virtual void UnregisterInteractableEvents(InteractableFacade interactable)
         {
+            if (interactable == null)
+            {
+                return;
+            }
+
             interactable.FirstTouched.RemoveListener(HandleFirstTouched);
             interactable.LastUntouched.RemoveListener(HandleLastUntouched);
             interactable.FirstGrabbed.RemoveListener(HandleFirstGrabbed);
