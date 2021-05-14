@@ -1,5 +1,16 @@
 # Changelog
 
+### [1.0.7](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v1.0.6...v1.0.7) (2021-05-14)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.tilia.interactions.interactables.unity ([12760a0](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/commit/12760a08d82e3c6723c557436322da1fa858992a))
+  > Bumps [io.extendreality.tilia.interactions.interactables.unity](https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity) from 1.18.0 to 1.19.0. - [Release notes](https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/compare/v1.18.0...v1.19.0)
+  > 
+  > Signed-off-by: dependabot[bot] <support@github.com>
+* **README.md:** update title logo to related-media repo ([6ef93cd](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/commit/6ef93cda71fbdbf4b97baba3d2be8d82a874f18f))
+  > The title logo is now located on the related-media repo.
+
 ### [1.0.6](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v1.0.5...v1.0.6) (2021-05-10)
 
 #### Miscellaneous Chores
