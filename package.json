@@ -2,7 +2,7 @@
     "name": "io.extendreality.tilia.visuals.interactablehighlighter.unity",
     "displayName": "Tilia Visuals InteractableHighlighter Unity",
     "description": "Provides the ability to control a highlight state for an interactable object for the Unity software.",
-    "version": "1.0.26",
+    "version": "1.0.27",
     "unity": "2018.3",
     "unityRelease": "10f1",
     "keywords": [
