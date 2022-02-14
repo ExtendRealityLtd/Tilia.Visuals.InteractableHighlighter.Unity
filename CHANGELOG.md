@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.38](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v1.0.37...v1.0.38) (2022-02-14)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.tilia.interactions.interactables.unity ([621b6cc](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/commit/621b6cc7fb7b912d7e5f6cb28463db58b4e4566d))
+  > Bumps [io.extendreality.tilia.interactions.interactables.unity](https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity) from 1.22.7 to 1.22.8. - [Release notes](https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/compare/v1.22.7...v1.22.8)
+
 ### [1.0.37](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v1.0.36...v1.0.37) (2022-02-14)
 
 #### Miscellaneous Chores
