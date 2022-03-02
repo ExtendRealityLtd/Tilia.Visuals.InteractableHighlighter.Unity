@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v1.0.39...v1.1.0) (2022-03-02)
+
+#### Features
+
+* **package.json:** add information urls to package ([25359de](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/commit/25359de74df30bfce4fd46efc97b5dd68fad50f7))
+  > The changelog, documentation and license url has been added to the package.json as these are used within the Unity package manager.
+
 ### [1.0.39](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v1.0.38...v1.0.39) (2022-02-14)
 
 #### Miscellaneous Chores
