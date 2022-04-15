@@ -74,7 +74,7 @@ public InteractableHighlighterFacade Facade { get; protected set; }
 
 #### HighlighterProxyEmitter
 
-The linked InteractorFacade for highlighting.
+The linked InteractorFacadeEventProxyEmitter for highlighting.
 
 ##### Declaration
 
@@ -84,7 +84,7 @@ public InteractorFacadeEventProxyEmitter HighlighterProxyEmitter { get; protecte
 
 #### UnhighlighterProxyEmitter
 
-The linked InteractorFacade for unhighlighting.
+The linked InteractorFacadeEventProxyEmitter for unhighlighting.
 
 ##### Declaration
 

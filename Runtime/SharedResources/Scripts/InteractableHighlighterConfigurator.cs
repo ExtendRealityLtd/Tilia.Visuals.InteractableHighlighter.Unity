@@ -1,7 +1,5 @@
 ﻿namespace Tilia.Visuals.InteractableHighlighter
 {
-    using Malimbe.PropertySerializationAttribute;
-    using Malimbe.XmlDocumentationAttribute;
     using System.Collections.Generic;
     using Tilia.Interactions.Interactables.Interactables;
     using Tilia.Interactions.Interactables.Interactors;
@@ -15,27 +13,65 @@
     public class InteractableHighlighterConfigurator : MonoBehaviour
     {
         #region Facade Settings
+        [Header("Facade Settings")]
+        [Tooltip("The public interface facade.")]
+        [SerializeField]
+        [Restricted]
+        private InteractableHighlighterFacade facade;
         /// <summary>
         /// The public interface facade.
         /// </summary>
-        [Serialized]
-        [field: Header("Facade Settings"), DocumentedByXml, Restricted]
-        public InteractableHighlighterFacade Facade { get; protected set; }
+        public InteractableHighlighterFacade Facade
+        {
+            get
+            {
+                return facade;
+            }
+            protected set
+            {
+                facade = value;
+            }
+        }
         #endregion
 
         #region Reference Settings
+        [Header("Reference Settings")]
+        [Tooltip("The linked InteractorFacadeEventProxyEmitter for highlighting.")]
+        [SerializeField]
+        [Restricted]
+        private InteractorFacadeEventProxyEmitter highlighterProxyEmitter;
         /// <summary>
-        /// The linked <see cref="InteractorFacade"/> for highlighting.
+        /// The linked <see cref="InteractorFacadeEventProxyEmitter"/> for highlighting.
         /// </summary>
-        [Serialized]
-        [field: Header("Reference Settings"), DocumentedByXml, Restricted]
-        public InteractorFacadeEventProxyEmitter HighlighterProxyEmitter { get; protected set; }
+        public InteractorFacadeEventProxyEmitter HighlighterProxyEmitter
+        {
+            get
+            {
+                return highlighterProxyEmitter;
+            }
+            protected set
+            {
+                highlighterProxyEmitter = value;
+            }
+        }
+        [Tooltip("The linked InteractorFacadeEventProxyEmitter for unhighlighting.")]
+        [SerializeField]
+        [Restricted]
+        private InteractorFacadeEventProxyEmitter unhighlighterProxyEmitter;
         /// <summary>
-        /// The linked <see cref="InteractorFacade"/> for unhighlighting.
+        /// The linked <see cref="InteractorFacadeEventProxyEmitter"/> for unhighlighting.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml, Restricted]
-        public InteractorFacadeEventProxyEmitter UnhighlighterProxyEmitter { get; protected set; }
+        public InteractorFacadeEventProxyEmitter UnhighlighterProxyEmitter
+        {
+            get
+            {
+                return unhighlighterProxyEmitter;
+            }
+            protected set
+            {
+                unhighlighterProxyEmitter = value;
+            }
+        }
         #endregion
 
         /// <summary>
