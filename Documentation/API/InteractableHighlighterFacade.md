@@ -17,6 +17,10 @@ The public interface into the InteractableHighlighter Prefab.
   * [Interactable]
   * [UnhighlightMaterial]
 * [Methods]
+  * [ClearHighlightMaterial()]
+  * [ClearHighlightValidity()]
+  * [ClearInteractable()]
+  * [ClearUnhighlightMaterial()]
   * [OnAfterHighlightValidityChange()]
   * [OnAfterInteractableChange()]
   * [OnBeforeInteractableChange()]
@@ -114,6 +118,46 @@ public Material UnhighlightMaterial { get; set; }
 
 ### Methods
 
+#### ClearHighlightMaterial()
+
+Clears [HighlightMaterial].
+
+##### Declaration
+
+```
+public virtual void ClearHighlightMaterial()
+```
+
+#### ClearHighlightValidity()
+
+Clears [HighlightValidity].
+
+##### Declaration
+
+```
+public virtual void ClearHighlightValidity()
+```
+
+#### ClearInteractable()
+
+Clears [Interactable].
+
+##### Declaration
+
+```
+public virtual void ClearInteractable()
+```
+
+#### ClearUnhighlightMaterial()
+
+Clears [UnhighlightMaterial].
+
+##### Declaration
+
+```
+public virtual void ClearUnhighlightMaterial()
+```
+
 #### OnAfterHighlightValidityChange()
 
 Called after [HighlightValidity] has been changed.
@@ -149,6 +193,10 @@ protected virtual void OnBeforeInteractableChange()
 [InteractableHighlighterConfigurator]: InteractableHighlighterConfigurator.md
 [Interactable]: InteractableHighlighterFacade.md#Interactable
 [Interactable]: InteractableHighlighterFacade.md#Interactable
+[HighlightMaterial]: InteractableHighlighterFacade.md#HighlightMaterial
+[HighlightValidity]: InteractableHighlighterFacade.md#HighlightValidity
+[Interactable]: InteractableHighlighterFacade.md#Interactable
+[UnhighlightMaterial]: InteractableHighlighterFacade.md#UnhighlightMaterial
 [HighlightValidity]: InteractableHighlighterFacade.md#HighlightValidity
 [Interactable]: InteractableHighlighterFacade.md#Interactable
 [Interactable]: InteractableHighlighterFacade.md#Interactable
@@ -165,6 +213,10 @@ protected virtual void OnBeforeInteractableChange()
 [Interactable]: #Interactable
 [UnhighlightMaterial]: #UnhighlightMaterial
 [Methods]: #Methods
+[ClearHighlightMaterial()]: #ClearHighlightMaterial
+[ClearHighlightValidity()]: #ClearHighlightValidity
+[ClearInteractable()]: #ClearInteractable
+[ClearUnhighlightMaterial()]: #ClearUnhighlightMaterial
 [OnAfterHighlightValidityChange()]: #OnAfterHighlightValidityChange
 [OnAfterInteractableChange()]: #OnAfterInteractableChange
 [OnBeforeInteractableChange()]: #OnBeforeInteractableChange
