@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.13](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v2.0.12...v2.0.13) (2022-06-16)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 2.2.0 to 2.3.0 ([e3968a2](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/commit/e3968a2f455531abbac836cb370e0e0cc5a78726))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 2.2.0 to 2.3.0. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v2.2.0...v2.3.0)
+
 ### [2.0.12](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v2.0.11...v2.0.12) (2022-05-28)
 
 #### Miscellaneous Chores
