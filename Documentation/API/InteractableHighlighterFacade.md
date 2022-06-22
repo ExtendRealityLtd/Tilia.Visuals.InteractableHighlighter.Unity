@@ -15,6 +15,7 @@ The public interface into the InteractableHighlighter Prefab.
   * [HighlightMaterial]
   * [HighlightValidity]
   * [Interactable]
+  * [IsEnabled]
   * [UnhighlightMaterial]
 * [Methods]
   * [ClearHighlightMaterial()]
@@ -104,6 +105,16 @@ The InteractableFacade that is linked to the highlighter.
 
 ```
 public InteractableFacade Interactable { get; set; }
+```
+
+#### IsEnabled
+
+Whether the highlighter is enabled and will process highlighting actions.
+
+##### Declaration
+
+```
+public bool IsEnabled { get; set; }
 ```
 
 #### UnhighlightMaterial
@@ -211,6 +222,7 @@ protected virtual void OnBeforeInteractableChange()
 [HighlightMaterial]: #HighlightMaterial
 [HighlightValidity]: #HighlightValidity
 [Interactable]: #Interactable
+[IsEnabled]: #IsEnabled
 [UnhighlightMaterial]: #UnhighlightMaterial
 [Methods]: #Methods
 [ClearHighlightMaterial()]: #ClearHighlightMaterial

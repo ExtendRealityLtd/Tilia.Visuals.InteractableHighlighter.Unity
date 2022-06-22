@@ -112,6 +112,11 @@
         /// <param name="interactor">The Interactor initiating the interaction.</param>
         public virtual void AttemptHighlight(InteractorFacade interactor)
         {
+            if (!Facade.IsEnabled)
+            {
+                return;
+            }
+
             if (Facade.HighlightMaterial != null)
             {
                 ApplyMaterialToAllMeshes(Facade.Interactable, Facade.HighlightMaterial);
@@ -126,6 +131,11 @@
         /// <param name="interactor">The Interactor initiating the interaction.</param>
         public virtual void AttemptUnhighlight(InteractorFacade interactor)
         {
+            if (!Facade.IsEnabled)
+            {
+                return;
+            }
+
             if (Facade.UnhighlightMaterial != null)
             {
                 ApplyMaterialToAllMeshes(Facade.Interactable, Facade.UnhighlightMaterial);
@@ -295,7 +305,14 @@
             }
 
             HighlighterProxyEmitter.gameObject.SetActive(true);
-            HighlighterProxyEmitter.Receive(interactor);
+            if (Facade.Interactable.TouchingInteractors.Count > 0)
+            {
+                HighlighterProxyEmitter.Receive(interactor);
+            }
+            else
+            {
+                UnhighlighterProxyEmitter.Receive(interactor);
+            }
         }
     }
 }
