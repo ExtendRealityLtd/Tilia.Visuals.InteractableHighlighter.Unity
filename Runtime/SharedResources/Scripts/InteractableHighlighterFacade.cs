@@ -22,6 +22,23 @@
 
         #region Highlight Settings
         [Header("Highlight Settings")]
+        [Tooltip("Whether the highlighter is enabled and will process highlighting actions.")]
+        [SerializeField]
+        private bool isEnabled = true;
+        /// <summary>
+        /// Whether the highlighter is enabled and will process highlighting actions.
+        /// </summary>
+        public bool IsEnabled
+        {
+            get
+            {
+                return isEnabled;
+            }
+            set
+            {
+                isEnabled = value;
+            }
+        }
         [Tooltip("The InteractableFacade that is linked to the highlighter.")]
         [SerializeField]
         private InteractableFacade interactable;
