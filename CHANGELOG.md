@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.0](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v2.0.15...v2.1.0) (2022-06-22)
+
+#### Features
+
+* **Facade:** add is enabled state property ([379877c](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/commit/379877c8dea694f4a1cae78920f5ee9259c0fa1c))
+  > The IsEnabled property determines if the highlighting functionality will work on not when the relevant methods are called.
+  > 
+  > It can be used to disable functionality without disabling the component as the component will do initial set up preparation in the OnEnabled method.
+
 ### [2.0.15](https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity/compare/v2.0.14...v2.0.15) (2022-06-16)
 
 #### Miscellaneous Chores
